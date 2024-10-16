@@ -1,0 +1,116 @@
+body {
+    width:  90%;
+    max-width: 900px;
+    background-color: lightgoldenrodyellow;
+    margin: auto;
+}
+
+h1 {
+    padding: 5px;
+}
+
+#tarolo {
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fejlec {
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding-top: 5px;
+}
+
+.menu {
+    background-color: lightgray;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 2px;
+}
+
+
+img {
+    width: 100%;
+
+}
+
+
+.navi {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
+    gap: 5px;
+}
+
+
+.nagykep {
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+
+.kiskepek {
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 2px;
+
+
+}
+
+
+.keret img {
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding:2px;
+}
+
+.keret {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 500px) {
+
+    .navi {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    
+    .keret {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    
+}
